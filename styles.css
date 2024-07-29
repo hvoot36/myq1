@@ -1,0 +1,17 @@
+#puzzleContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.puzzle-piece {
+    position: absolute;
+    width: 230px;
+    height: 110px;
+    background-size: contain; /* Ensure the image fits within the div */
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 0;
+}
